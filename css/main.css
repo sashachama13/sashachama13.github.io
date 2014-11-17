@@ -1,0 +1,180 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+    box-sizing: border-box;
+
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  	margin: 0;
+  	padding: 0;
+  	background: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.flex{
+	display:block;
+	width: 100%;
+	
+	} 
+ 
+.header{
+	position:relative;
+	width:100%;
+	
+	}
+	 
+.nav ul {
+  	list-style: none;
+  	background-color: #444;
+  	text-align: center;
+  	padding: 0;
+ 	 margin: 0;
+}
+.nav li {
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 1em;
+  	line-height: 40px;
+  	height: 40px;
+  	border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  	text-decoration: none;
+  	color: #fff;
+  	display: block;
+  	transition: .3s background-color;
+}
+ 
+.nav a:hover {
+ 	 background-color: #CCC;
+}
+ 
+.nav a.active {
+  	background-color: #fff;
+  	color: #444;
+  	cursor: default;
+}
+
+.footer {
+	width: 100%;
+	color: #ccc;
+	background: #999;
+	height: 75px;
+}
+
+.banner {
+	text-align: center;
+	position:relative;
+}
+
+.banner-img {
+	padding-top: 56.25%;
+	background: #ccc url("http://placehold.it/1920x1080/CCC") no-repeat center center;
+	background-size: cover;
+}
+
+.intro-wrap{
+	background-color: #333;
+	color: #FFF;
+	width:100%;
+}
+
+.intro{
+	max-width: 20em;
+	margin: 0 auto;
+}
+
+.banner-branding{
+	background: #999 url("http://placehold.it/1920x400/999") no-repeat center center;
+	background-size: cover;
+	text-align: right;
+}
+
+.banner-print{
+	background: #999 url("http://placehold.it/1920x400/999") no-repeat center center;
+	background-size: cover;
+	text-align: right;
+}
+
+.banner-typography{
+	background: #999 url("http://placehold.it/1920x400/999") no-repeat center center;
+	background-size: cover;
+	text-align: right;
+}
+
+@media only screen and (min-width: 25em) {
+	
+.intro-wrap{
+	position: absolute;
+	bottom:30px;
+	background: transparent;
+	color: #333;
+}
+
+}
+
+@media screen and (min-width: 38em) {
+  .header{
+		position:fixed;
+		width:100%;
+	}
+  .banner {
+	position:inherit;
+}
+  .nav li {
+    	width: 100px;
+    	border-bottom: none;
+    	height: 75px;
+    	line-height: 75px;
+    	font-size: 1.1em;
+  }
+ 
+  .nav li {
+    	display: inline-block;
+    	margin-right: -4px;
+  }
+  
+  .intro-wrap{
+		bottom: 75px;
+	  
+  }
+  .intro{
+	max-width: 30em;
+}
+}
+
+@media only screen and (min-width: 60em) {
+	.nav li {
+    width: 160px;
+    border-bottom: none;
+    height: 100px;
+    line-height: 100px;
+    font-size: 1.2em;
+  }
+ 
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+  
+  .intro-wrap{
+	bottom: 150px;
+  }
+  
+  .intro{
+	max-width: 40em;
+
+}
+}
