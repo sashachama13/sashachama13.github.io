@@ -26,8 +26,7 @@ body {
 .flex{
 	display:block;
 	width: 100%;
-	
-	} 
+} 
  
 .header{
 	position:relative;
@@ -157,11 +156,11 @@ body {
 
 @media only screen and (min-width: 60em) {
 	.nav li {
-    width: 160px;
+    width: 150px;
     border-bottom: none;
     height: 100px;
     line-height: 100px;
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
  
   .nav li {
