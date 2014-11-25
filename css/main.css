@@ -21,7 +21,10 @@ body {
   	padding: 0;
   	background: #FFF;
 	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
 }
+
+
  
 .flex{
 	display:block;
@@ -64,6 +67,14 @@ body {
   	background-color: #fff;
   	color: #444;
   	cursor: default;
+}
+
+[data-state="closed"]{
+	display:none;
+}
+
+[data-state="open"]{
+	display:block;
 }
 
 .footer {

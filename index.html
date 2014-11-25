@@ -50,12 +50,13 @@
    <!-- Branding Banner-->
  <section  id="branding">
    <div class="banner-branding pad-t-2 pad-b-2 gutter-1-2">
-   <p class="intro yotta">Branding</p>
+   <p class="intro yotta work-button" data-id="#branding-content">Branding</p>
    </div>
    <!-- First Branding-->
+   <div id="branding-content" data-state="closed">
    <div class="grid">
    		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-1-2">
-        	<h2>Doi Chaang Cofee Co.</h2>
+        	<h2>Doi Chaang Coffee Co.</h2>
             <p> Logo re-design, for a fair trade coffee company in Vancouver.  The original logo is a detailed drawing of the Doi Chaang tribe leader’s face which pays homage to the people in the village and Thailand as a whole. The illustration however meaningful, does not work as a logo.</p>
             <h2>The Process</h2>
             <p>To represent the Doi Chaang Coffee company I chose  to mix two strong identifiable images into one dynamic recognizable shape. I wanted to combine the Thai heritage of the Doi Chaang with their business in order to continue to honor the people</p>
@@ -65,15 +66,15 @@
         </div>
     </div>     
    <!-- Second Branding-->
-   <div class="grid">
+   <div class="grid grid-middle">
    		<div class="unit unit-xs-hidden unit-s-hidden unit-m-1-2 unit-l-1-2">
         	<img class="flex" src="http://placehold.it/200x200/333" alt="Articulous Renovations Logo Design">
         </div>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-1-2">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
         	<h2>Articulous Renovations</h2>
             <p>A logo redesign for an existing Ottawa based renovations company.</p>
-            <h2>The Process</h2>
-            <p>Taking the most recognizable elements of renovations, and fuzeing them together 
+            <h3 class="push-0">The Process</h3>
+            <p class="milli">Taking the most recognizable elements of renovations, and fuzeing them together 
 with the company’s name . In the process amining to portray a quality, proffessional and reliable
 business image. </p>
         </div>
@@ -81,15 +82,17 @@ business image. </p>
         	<img class="flex" src="http://placehold.it/200x200/333" alt="Articulous Renovations Logo Design">
         </div>
     </div> 
+	</div>
 </section>
     <!--Banding Ends-->
     
     <!-- Print Banner-->
- <section id="print">
+ <section ="print">
    <div class="banner-print pad-t-2 pad-b-2 gutter-1-2">
-   <p class="intro yotta">Print</p>
+   <p class="intro yotta work-button" data-id="#print-content">Print</p>
    </div>
    <!-- First Print-->
+   <div id="print-content" data-state="closed">
    <div class="grid">
    		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-1-2">
         	<h2>The Vinyl Cafe Book</h2>
@@ -175,14 +178,16 @@ the use of  clean lines and simple shapes creating harmony between the mood and 
         	<img class="flex" src="http://placehold.it/200x200/333" alt="Fresh Fashion Magazine Layout">
         </div>
     </div> 
+	</div>
 </section>
     <!--Print Ends-->
     <!-- Typography Banner-->
 <section id="typography">
    <div class="banner-typography pad-t-2 pad-b-2 gutter-1-2">
-   		<p class="intro yotta">Typography</p>
+   <p class="intro yotta  work-button" data-id="#typography-content">Typography</p>
    </div>
    <!-- First Typography-->
+   <div id="typography-content" data-state="closed">
    <div class="grid">
    		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-1-2">
         	<h2>Cirque du Soleil Annual Report</h2>
@@ -213,6 +218,7 @@ the use of  clean lines and simple shapes creating harmony between the mood and 
         	<img class="flex" src="http://placehold.it/200x200/333" alt="World Wildlife Federation Annual Report">
         </div>
     </div> 
+	</div>
 </section>
     <!--Typography Ends-->
 </main>
@@ -228,5 +234,19 @@ the use of  clean lines and simple shapes creating harmony between the mood and 
     	</div>  
   </footer>
   <!--Footer Ends-->
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script>
+  $(".work-button").on("click",function(){
+	  var id=$(this).attr("data-id");
+	  var work=$(id);
+	  if(work.attr("data-state")=="open"){
+		  work.attr("data-state","closed");
+	  }else{
+		  work.attr("data-state","open");
+			  
+	  }
+  });
+  	
+  </script>
 </body>
 </html>
