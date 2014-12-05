@@ -24,8 +24,6 @@ body {
 	text-align:center;
 }
 
-
- 
 .flex{
 	display:block;
 	width: 100%;
@@ -35,7 +33,7 @@ body {
 	position:relative;
 	width:100%;
 	
-	}
+}
 	 
 .nav ul {
   	list-style: none;
@@ -107,21 +105,31 @@ body {
 }
 
 .banner-branding{
-	background: #999 url("http://placehold.it/1920x400/999") no-repeat center center;
+	background: #F95E00 url("http://placehold.it/1920x400/F95E00") no-repeat center center;
 	background-size: cover;
-	text-align: right;
+	text-align: center;
 }
 
 .banner-print{
 	background: #999 url("http://placehold.it/1920x400/999") no-repeat center center;
 	background-size: cover;
-	text-align: right;
+	text-align: center;
 }
 
 .banner-typography{
 	background: #999 url("http://placehold.it/1920x400/999") no-repeat center center;
 	background-size: cover;
-	text-align: right;
+	text-align: center;
+}
+
+.padding{
+	padding-left:3em;
+	padding-right:3em;
+}
+
+.padding2{
+	padding-left:1em;
+	padding-right:1em;
 }
 
 @media only screen and (min-width: 25em) {
