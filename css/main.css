@@ -89,7 +89,8 @@ body {
 
 .banner-img {
 	padding-top: 56.25%;
-	background: #ccc url("http://placehold.it/1920x1080/CCC") no-repeat center center;
+	background:  url("
+	") no-repeat center center;
 	background-size: cover;
 }
 
