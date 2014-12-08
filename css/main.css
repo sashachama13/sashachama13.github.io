@@ -33,12 +33,11 @@ body {
 .header{
 	position:relative;
 	width:100%;
-	
 }
 	 
 .nav ul {
   	list-style: none;
-  	background-color: #444;
+  	background-color: #fff;
   	text-align: center;
   	padding: 0;
  	margin: 0;
@@ -52,7 +51,7 @@ body {
  
 .nav a {
   	text-decoration: none;
-  	color: #fff;
+  	color: #F60335;
   	display: block;
   	transition: .3s background-color;
 }
@@ -63,7 +62,7 @@ body {
  
 .nav a.active {
   	background-color: #fff;
-  	color: #444;
+  	color:#F60335 ;
   	cursor: default;
 }
 
@@ -78,7 +77,7 @@ body {
 .footer {
 	width: 100%;
 	color: #ccc;
-	background: #999;
+	background: #fff;
 	height: 75px;
 }
 
@@ -89,7 +88,7 @@ body {
 
 .banner-img {
 	padding-top: 56.25%;
-	background: url("https://www.behance.net/gallery/21877677/Work-Mockup") no-repeat center center;
+	background: url("https://m1.behance.net/rendition/modules/146368033/disp/63c305e939d378d71a4c0af3d5a20289.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -105,21 +104,24 @@ body {
 }
 
 .banner-branding{
-	background: #F95E00 url("http://placehold.it/1920x400/F95E00") no-repeat center center;
+	background: #E1DEDE url("https://m1.behance.net/rendition/modules/146307293/disp/cf151ffc8f2408c6449360c0770e1f9b.jpg") no-repeat center center;
 	background-size: cover;
 	text-align: center;
+	height: 250px;
 }
 
 .banner-print{
-	background: #999 url("http://placehold.it/1920x400/999") no-repeat center center;
+	background: #A29F9F url("https://www.behance.net/images/temp3/e59809aa990ff85eb7184ea8ad9dd2fe.jpg") no-repeat center center;
 	background-size: cover;
 	text-align: center;
+	height: 250px;
 }
 
 .banner-typography{
-	background: #999 url("http://placehold.it/1920x400/999") no-repeat center center;
+	background: #414040 url("https://m1.behance.net/profiles9/2680971/projects/21895721/4e88f54911e46ab50f26dc74ccf3a804.jpg") no-repeat center center;
 	background-size: cover;
 	text-align: center;
+	height: 250px;
 }
 
 .padding{
@@ -136,7 +138,7 @@ body {
 	
 .intro-wrap{
 	position: absolute;
-	bottom:30px;
+	bottom: 30px;
 	background: transparent;
 	color: #333;
 }
