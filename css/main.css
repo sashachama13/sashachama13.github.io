@@ -78,7 +78,7 @@ body {
 	width: 100%;
 	color: #ccc;
 	background: #fff;
-	height: 75px;
+	height: 250px;
 }
 
 .banner {
@@ -104,7 +104,7 @@ body {
 }
 
 .banner-branding{
-	background: #E1DEDE url("") no-repeat center center;
+	background: #FA8406 url("") no-repeat center center;
 	background-size: cover;
 	text-align: left;
 	height: 250px;
@@ -112,7 +112,7 @@ body {
 }
 
 .banner-print{
-	background: #A29F9F url("") no-repeat center center;
+	background: #8bd8ce url("") no-repeat center center;
 	background-size: cover;
 	text-align: left;
 	height: 250px;
@@ -120,7 +120,15 @@ body {
 }
 
 .banner-typography{
-	background: #414040 url("") no-repeat center center;
+	background: #F1153D url("") no-repeat center center;
+	background-size: cover;
+	text-align: left;
+	height: 250px;
+	color:#FFFFFF
+}
+
+.banner-interactive{
+	background: #55a340 url("") no-repeat center center;
 	background-size: cover;
 	text-align: left;
 	height: 250px;
@@ -140,6 +148,10 @@ body {
 .logo{
 	max-height: 35px;
 	padding-top: .5rem;
+}
+
+.media{
+	height: 35px;
 }
 @media only screen and (min-width: 25em) {
 	
@@ -189,6 +201,9 @@ body {
 	max-height: 55px;
 }
 
+.media{
+	height: 40px;
+}
 @media only screen and (min-width: 60em) {
    .nav li {
     width: 150px;
