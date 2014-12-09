@@ -84,12 +84,14 @@ body {
 .banner {
 	text-align: center;
 	position:relative;
+	margin-top: 4em;
 }
 
 .banner-img {
 	padding-top: 56.25%;
 	background: url("../images/background.jpg") no-repeat center center;
 	background-size: cover;
+	
 }
 
 .intro-wrap{
@@ -212,6 +214,7 @@ a{
   .header{
 		position:fixed;
 		width:100%;
+		top: 0;
 	}
   .banner {
 	position:inherit;
