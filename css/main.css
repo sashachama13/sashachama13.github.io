@@ -134,6 +134,10 @@ body {
 	padding-right:1em;
 }
 
+.logo{
+	max-height: 35px;
+	padding-top: .5rem;
+}
 @media only screen and (min-width: 25em) {
 	
 .intro-wrap{
@@ -141,6 +145,10 @@ body {
 	bottom: 30px;
 	background: transparent;
 	color: #333;
+}
+
+.logo{
+	max-height:35px;
 }
 
 }
@@ -173,10 +181,13 @@ body {
   .intro{
 	max-width: 30em;
 }
+
+.logo{
+	max-height: 55px;
 }
 
 @media only screen and (min-width: 60em) {
-	.nav li {
+   .nav li {
     width: 150px;
     border-bottom: none;
     height: 100px;
