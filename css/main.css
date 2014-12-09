@@ -88,7 +88,7 @@ body {
 
 .banner-img {
 	padding-top: 56.25%;
-	background: url("https://m1.behance.net/rendition/modules/146368033/disp/63c305e939d378d71a4c0af3d5a20289.jpg") no-repeat center center;
+	background: url("../images/background.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -104,24 +104,27 @@ body {
 }
 
 .banner-branding{
-	background: #E1DEDE url("https://m1.behance.net/profiles9/2680971/projects/21895721/05671c79c47fc9b2b56ed26b22fa74ed.jpg") no-repeat center center;
+	background: #E1DEDE url("") no-repeat center center;
 	background-size: cover;
-	text-align: center;
+	text-align: left;
 	height: 250px;
+	color: #FFFFFF;
 }
 
 .banner-print{
-	background: #A29F9F url("https://m1.behance.net/rendition/modules/146371839/disp/e59809aa990ff85eb7184ea8ad9dd2fe.jpg") no-repeat center center;
+	background: #A29F9F url("") no-repeat center center;
 	background-size: cover;
-	text-align: center;
+	text-align: left;
 	height: 250px;
+	color: #FFFFFF;
 }
 
 .banner-typography{
-	background: #414040 url("https://m1.behance.net/profiles9/2680971/projects/21895721/4e88f54911e46ab50f26dc74ccf3a804.jpg") no-repeat center center;
+	background: #414040 url("") no-repeat center center;
 	background-size: cover;
-	text-align: center;
+	text-align: left;
 	height: 250px;
+	color:#FFFFFF
 }
 
 .padding{
