@@ -53,11 +53,11 @@ body {
   	text-decoration: none;
   	color: #F60335;
   	display: block;
-  	transition: .3s background-color;
+  	transition: .4s color;
 }
  
 .nav a:hover {
- 	 background-color: #CCC;
+ 	 color: #F6A901;
 }
  
 .nav a.active {
@@ -104,7 +104,7 @@ body {
 }
 
 .banner-branding{
-	background: #FA8406 url("") no-repeat center center;
+	background: #FA8406;
 	background-size: cover;
 	text-align: left;
 	height: 250px;
@@ -112,7 +112,7 @@ body {
 }
 
 .banner-print{
-	background: #8bd8ce url("") no-repeat center center;
+	background: #8bd8ce;
 	background-size: cover;
 	text-align: left;
 	height: 250px;
@@ -120,7 +120,7 @@ body {
 }
 
 .banner-typography{
-	background: #F1153D url("") no-repeat center center;
+	background: #F1153D;
 	background-size: cover;
 	text-align: left;
 	height: 250px;
@@ -128,7 +128,7 @@ body {
 }
 
 .banner-interactive{
-	background: #55a340 url("") no-repeat center center;
+	background: #55a340;
 	background-size: cover;
 	text-align: left;
 	height: 250px;
@@ -152,6 +152,46 @@ body {
 
 .media{
 	height: 35px;
+}
+
+.orange{
+	height: 220px;
+	background: #FA8406;
+}
+
+.teal{
+	height: 220px;
+	background: #8bd8ce;
+}
+
+.pink{
+	height: 220px;
+	background: #F1153D;
+}
+
+.green{
+	height: 220px;
+	background: #55a340;
+}
+
+.errorpage{
+	color:#ffffff;
+	line-height: 40px; 
+	text-align: center;
+	font-size: 60px;
+	padding-top: .5em;
+}
+
+.errorpage2{
+	color:#ffffff;
+	line-height: 40px; 
+	text-align: center;
+	font-size: 50px;
+	padding-top: .7em;
+}
+
+a{
+	text-decoration: none;
 }
 @media only screen and (min-width: 25em) {
 	
