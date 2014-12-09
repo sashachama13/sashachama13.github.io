@@ -80,11 +80,19 @@ section{
 }
 
 [data-state="closed"]{
-	display:none;
+	max-height: 0;
+	
 }
 
+.details {
+	overflow: hidden;
+	transition: all 1s linear;
+	
+	}
+
+
 [data-state="open"]{
-	display:block;
+	max-height: 150em;
 }
 
 .footer {
@@ -101,9 +109,10 @@ section{
 }
 
 .banner-img {
-	padding-top: 56.25%;
+	padding-top: 66.63%;
 	background: url("../images/background.jpg") no-repeat center center;
 	background-size: cover;
+	
 	
 }
 
