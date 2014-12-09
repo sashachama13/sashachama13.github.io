@@ -25,6 +25,19 @@ body {
 	color: #585757;
 }
 
+section{
+	position: relative;
+}
+
+.jump {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: #000;
+	top: -5em;
+	opacity: 0;
+	}
+
 .flex{
 	display:block;
 	width: 100%;
@@ -213,6 +226,7 @@ a{
 @media screen and (min-width: 38em) {
   .header{
 		position:fixed;
+		z-index: 1000;
 		width:100%;
 		top: 0;
 	}
