@@ -97,9 +97,42 @@ section{
 
 .footer {
 	width: 100%;
-	color: #ccc;
+	color: #F60335;
 	background: #fff;
-	height: 250px;
+	height: 70px;
+	padding:1em;
+}
+
+.footnav ul {
+  	list-style: none;
+  	background-color: #fff;
+  	text-align: right;
+  	padding: 0;
+ 	margin: 0;
+}
+.footnav li {
+	display: inline-block;
+	width: 85px;
+  	font-size: .65em;
+  	line-height: 40px;
+  	height: 40px;
+}
+ 
+.footnav a {
+  	text-decoration: none;
+  	color: #F60335;
+  	display: inline-block;
+  	transition: .4s color;
+}
+ 
+.footnav a:hover {
+ 	 color: #F6A901;
+}
+ 
+.footnav a.active {
+  	background-color: #fff;
+  	color:#F60335 ;
+  	cursor: default;
 }
 
 .banner {
@@ -112,8 +145,6 @@ section{
 	padding-top: 66.63%;
 	background: url("../images/background.jpg") no-repeat center center;
 	background-size: cover;
-	
-	
 }
 
 .intro-wrap{
@@ -243,7 +274,8 @@ a{
 	position:inherit;
 }
   .nav li {
-    	width: 100px;
+    	align: left;
+		width: 100px;
     	border-bottom: none;
     	height: 75px;
     	line-height: 75px;
@@ -255,21 +287,40 @@ a{
     	margin-right: -4px;
   }
   
+  .footnav ul{
+	  text-align: center;
+  }
+  
+  .footnav li {
+	    align: left;
+    	width: 100px;
+    	border-bottom: none;
+    	height: 75px;
+    	line-height: 75px;
+    	font-size: .9em;
+  }
+ 
+  .footnav li {
+    	display: inline-block;
+    	margin-right: -4px;
+  }
+  
   .intro-wrap{
 		bottom: 75px;
 	  
   }
   .intro{
 	max-width: 30em;
-}
+  }
 
-.logo{
+  .logo{
 	max-height: 55px;
-}
+  }
 
 .media{
-	height: 40px;
-}
+	height: 20px;
+  }
+  
 @media only screen and (min-width: 60em) {
    .nav li {
     width: 150px;
@@ -283,7 +334,20 @@ a{
     display: inline-block;
     margin-right: -4px;
   }
-  
+
+.footnav li {
+    width: 150px;
+    border-bottom: none;
+    height: 100px;
+    line-height: 100px;
+    font-size: .9em;
+  }
+ 
+  .footnav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+    
   .intro-wrap{
 	bottom: 150px;
   }
