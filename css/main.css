@@ -165,15 +165,15 @@ section{
 	background-size: cover;
 	text-align: left;
 	height: 250px;
-	color: #f8a373;
+	color: #ffffff;
 }
 
 .banner-print{
-	background: #92ce9c;
+	background: #7d84c0;
 	background-size: cover;
 	text-align: left;
 	height: 250px;
-	color: #7d84c0;
+	color: #ffffff;
 }
 
 .banner-typography{
@@ -181,15 +181,15 @@ section{
 	background-size: cover;
 	text-align: left;
 	height: 250px;
-	color:#d57db3;
+	color:#ffffff;
 }
 
 .banner-interactive{
-	background: #55a340;
+	background: #93ce9c;
 	background-size: cover;
 	text-align: left;
 	height: 250px;
-	color:#93ce9c;
+	color:#ffffff;
 }
 
 .padding{
