@@ -65,13 +65,13 @@ section{
  
 .nav a {
   	text-decoration: none;
-  	color: #F60335;
+  	color: #7d84c0;
   	display: block;
   	transition: .4s color;
 }
  
 .nav a:hover {
- 	 color: #F6A901;
+ 	 color: #f8a373;
 }
  
 .nav a.active {
