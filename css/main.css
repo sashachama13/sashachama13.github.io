@@ -161,27 +161,27 @@ section{
 }
 
 .banner-branding{
-	background: #FA8406;
+	background: #f8a373;
 	background-size: cover;
 	text-align: left;
 	height: 250px;
-	color: #FFFFFF;
+	color: #f8a373;
 }
 
 .banner-print{
-	background: #8bd8ce;
+	background: #92ce9c;
 	background-size: cover;
 	text-align: left;
 	height: 250px;
-	color: #FFFFFF;
+	color: #7d84c0;
 }
 
 .banner-typography{
-	background: #F1153D;
+	background: #cc6699;
 	background-size: cover;
 	text-align: left;
 	height: 250px;
-	color:#FFFFFF
+	color:#d57db3;
 }
 
 .banner-interactive{
@@ -189,7 +189,7 @@ section{
 	background-size: cover;
 	text-align: left;
 	height: 250px;
-	color:#FFFFFF
+	color:#93ce9c;
 }
 
 .padding{
