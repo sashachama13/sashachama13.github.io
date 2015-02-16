@@ -211,12 +211,12 @@ a {
   height: 100%;
   list-style-type: none;
   margin: 0;
-  margin-left: 4rem;
+  margin-right: 4rem;
   padding: 0;
 }
 
 .menu-link {
-  color: #ccc;
+  color: #000;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -363,7 +363,7 @@ img {
   .menu {
     height: auto;
 	top: 17%;
-	right: 10%;
+	right: 0%;
   }
   .menu-inner {
     display: block;
@@ -380,7 +380,7 @@ img {
   
   .menu-opener {
   top: 17%;
-  right: 10%;
+  right: 0%;
   }
   
   .logo-pad{
