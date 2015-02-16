@@ -408,8 +408,13 @@ img {
 	
 .media{
 	height: 20px;
-
 }
+.footnav li {
+	width: 50px;
+}
+.footnav ul {
+	text-align: left;
+	}
 
 @media only screen and ( max-width: 32.5em ) /* 520 */
 {
