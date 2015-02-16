@@ -346,10 +346,10 @@ img {
   .menu {
     height: auto;
 	top: 17%;
-	right: 0%;
+	right: 10%;
   }
   .menu-inner {
-    display: inline-block;
+    display: block;
   }
   
   .menu-link {
@@ -357,8 +357,8 @@ img {
     font-size: 1em;
   }
   .menu.active {
-    width: -webkit-calc(75% - 0.5rem);
-    width: calc(75% - 0.5rem);
+    width: -webkit-calc(125% - 0.5rem);
+    width: calc(125% - 0.5rem);
   }
   
   .menu-opener {
@@ -376,7 +376,7 @@ img {
 	}
 	
 .menu{
-	right: 10%;
+	right: 0%;
 }
 .header{
 	padding-top: 5em;
@@ -395,6 +395,11 @@ img {
 .logo{
 	max-width: 180px
 	}
+	
+.logo-pad{
+	padding-bottom: 5em;
+	
+}
 @media only screen and ( max-width: 32.5em ) /* 520 */
 {
 	body
