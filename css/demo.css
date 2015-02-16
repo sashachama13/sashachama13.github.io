@@ -135,7 +135,7 @@ h2 {
   height: 64px;
   position: absolute;
   top: 15%;
-  right: 20%;
+  right: 5%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -189,7 +189,7 @@ h2 {
   height: 64px;
   position: absolute;
   top: 15%;
-  right: 20%;
+  right: 5%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -198,8 +198,8 @@ h2 {
   z-index: -1;
 }
 .menu.active {
-  width: -webkit-calc(107.4% - 2rem);
-  width: calc(107.4% - 2rem);
+  width: -webkit-calc(95% - 2rem);
+  width: calc(95% - 2rem);
 }
 .menu.active .menu-link {
   color: #000;
@@ -368,9 +368,8 @@ img {
 @media screen and (max-width: 768px) {
   .menu {
     height: auto;
-	top: 25%;
-	right: 0%;
-	
+	top: 17%;
+	right: 1%;
   }
   .menu-inner {
     display: block;
@@ -381,13 +380,13 @@ img {
     font-size: 1em;
   }
   .menu.active {
-    width: -webkit-calc(85% - 0.5rem);
-    width: calc(85% - 0.5rem);
+    width: -webkit-calc(100% - 0.5rem);
+    width: calc(100% - 0.5rem);
   }
   
   .menu-opener {
-  top: 25%;
-  right: 0%;
+  top: 17%;
+  right: 1%;
   
   }
   
@@ -403,6 +402,13 @@ img {
 .menu{
 	right: 0%;
 }
+.header{
+	padding-bottom: 5em;
+	}
+	
+.media{
+	height: 20px;
+
 }
 
 @media only screen and ( max-width: 32.5em ) /* 520 */
