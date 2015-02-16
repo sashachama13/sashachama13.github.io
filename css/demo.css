@@ -379,7 +379,7 @@ img {
 	right: 0%;
 }
 .header{
-	padding-top: 5em;
+	padding-top: 0em;
 	}
 	
 .media{
@@ -397,7 +397,7 @@ img {
 	}
 	
 .logo-pad{
-	padding-top: 5em;
+	padding-top: 0em;
 	
 }
 @media only screen and ( max-width: 32.5em ) /* 520 */
