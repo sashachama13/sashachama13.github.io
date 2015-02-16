@@ -13,7 +13,7 @@ body {
 	font-weight: 400;
 	height:100%;
 	min-height:1200px;
-	background: url(http://subtlepatterns.com/patterns/crossword.png) repeat;
+	background: #fff;
 	-webkit-font-smoothing: antialiased;
 	
 }
@@ -123,7 +123,6 @@ h2 {
 
 .logo{
     max-width: 220px;
-	
 }
 
 .menu-opener, .menu-opener:hover, .menu-opener.active, .menu-opener-inner, .menu-opener-inner::before, .menu-opener-inner::after, .menu, .menu.active {
@@ -136,7 +135,7 @@ h2 {
   height: 64px;
   position: absolute;
   top: 15%;
-  right: 10%;
+  right: 0%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -186,11 +185,11 @@ h2 {
 }
 
 .menu {
-  color: transparent;
+  background: #fff;
   height: 64px;
   position: absolute;
   top: 15%;
-  right: 10%;
+  right: 0%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -199,8 +198,8 @@ h2 {
   z-index: -1;
 }
 .menu.active {
-  width: -webkit-calc(85% - 2rem);
-  width: calc(85% - 2rem);
+  width: -webkit-calc(95% - 2rem);
+  width: calc(95% - 2rem);
 }
 .menu.active .menu-link {
   color: #000;
@@ -327,6 +326,7 @@ img {
 .header{
 	height: 2em;
 	padding-top: 4em;
+
 	}
 	
 .section{
@@ -361,14 +361,14 @@ img {
 
 .logo-pad{
 	padding-bottom: 5em;
-	padding-top: 1em;
+	padding-top: 3em;
 	
 }
 	
 @media screen and (max-width: 768px) {
   .menu {
     height: auto;
-	top: 20%;
+	top: 25%;
 	
   }
   .menu-inner {
@@ -377,7 +377,7 @@ img {
   
   .menu-link {
     padding: 10px 0;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .menu.active {
     width: -webkit-calc(85% - 0.5rem);
@@ -385,7 +385,7 @@ img {
   }
   
   .menu-opener {
-  top: 20%;
+  top: 25%;
   
   }
   
