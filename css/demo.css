@@ -391,7 +391,10 @@ img {
 .footnav ul {
 	text-align: center;
 	}
-
+	
+.logo{
+	max-width: 180px
+	}
 @media only screen and ( max-width: 32.5em ) /* 520 */
 {
 	body
