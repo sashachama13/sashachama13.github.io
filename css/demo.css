@@ -112,7 +112,7 @@ body {
   height: 64px;
   position: absolute;
   top: 15%;
-  right: 0%;
+  right: 1%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -166,7 +166,7 @@ body {
   height: 64px;
   position: absolute;
   top: 15%;
-  right: 0%;
+  right: 1%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -414,6 +414,6 @@ img {
 	}
 	
 	.menu-opener {
-  right: 10%;
-  }
+   	right: 10%;
+ 	 }
 }
