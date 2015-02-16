@@ -384,7 +384,7 @@ img {
   }
   
   .logo-pad{
-	padding-bottom: 2em;
+	padding-bottom: 0em;
 	padding-top: 0em;
   }
 
@@ -396,7 +396,7 @@ img {
 	right: 0%;
 }
 .header{
-	padding-top: 4em;
+	padding-top: 2em;
 	}
 	
 .media{
