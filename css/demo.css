@@ -236,15 +236,53 @@ img {
 
 .logo-pad{
 	padding-bottom: 4em;
-	padding-top: 3em;
 	padding-left: 0.4em;
-	
+	padding-top: 2.5em;
 }
-	
+
+input {
+  display: none;
+  text-align: right;
+}
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  background: url("../images/navbar.svg") no-repeat;
+  color: #ccc;
+  font-family: arial;
+  -webkit-transition: background-color 0.1s, color 0.1s;
+}
+
+label:hover {
+  background: url("../images/navbarhover.svg") no-repeat;
+  color: #000;
+}
+
+.test {
+  -webkit-transition: height .3s ease;
+  height: 0;
+  overflow: hidden;
+  width: 200px;
+  background: trasparent;
+  margin-top: 10px;
+}
+
+input:checked + .test {
+  height: 50px;
+}
+
+.nav{
+	padding-left: 4em;
+	padding-top: 1em;
+	height: 2em;
+}
+
 @media screen and (max-width: 768px) {
   
   .logo-pad{
-	padding-bottom: 0em;
+	padding-bottom: 3em;
 	padding-top: 0em;
   }
 
