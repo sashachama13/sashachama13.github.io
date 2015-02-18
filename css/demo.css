@@ -237,7 +237,7 @@ img {
 .logo-pad{
 	padding-bottom: 4em;
 	padding-left: 0.4em;
-	padding-top: 2.5em;
+	padding-top: 0em;
 }
 
 input {
@@ -252,7 +252,7 @@ label {
   background: url("../images/navbar.svg") no-repeat;
   color: #ccc;
   font-family: arial;
-  -webkit-transition: background-color 0.1s, color 0.1s;
+  -webkit-transition: background-color 0.4s, color 0.4s;
 }
 
 label:hover {
@@ -261,7 +261,7 @@ label:hover {
 }
 
 .test {
-  -webkit-transition: height .3s ease;
+  -webkit-transition: height .4s ease;
   height: 0;
   overflow: hidden;
   width: 200px;
@@ -270,14 +270,16 @@ label:hover {
 }
 
 input:checked + .test {
-  height: 50px;
+  height: 100px;
 }
 
 .nav{
 	padding-left: 4em;
-	padding-top: 1em;
-	height: 2em;
+	padding-top: .5em;
+	
+	height: 5em;
 }
+
 
 @media screen and (max-width: 768px) {
   
