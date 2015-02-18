@@ -27,6 +27,16 @@ body {
 	
 }
 
+.navbar{
+	max-width: 200px:
+	}
+	
+.navigation{
+	height:3em;
+	padding-left: 10em;
+	top: 20%;
+}
+
 #wrapper {
 	width: 100%;
 	position: absolute;
@@ -64,8 +74,8 @@ body {
 	color: #F60335;
 	background: transparent ;
 	height: 70px;
-	padding-top: 10em;
-	padding-bottom: 4em;
+	padding-top: 5em;
+	padding-bottom: 0em;
 }
 
 .footnav ul {
@@ -111,129 +121,6 @@ body {
     max-width: 220px;
 }
 
-a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-
-.menu-opener, .menu-opener:hover, .menu-opener.active, .menu-opener-inner, .menu-opener-inner::before, .menu-opener-inner::after, .menu, .menu.active {
-  -webkit-transition: 250ms all;
-  transition: 250ms all;
-}
-
-.menu-opener {
-  cursor: pointer;
-  height: 64px;
-  position: absolute;
-  top: 15%;
-  right: 1%;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 64px;
-}
-.menu-opener:hover, .menu-opener.active {
-  background: #fff;
-}
-
-.menu-opener-inner {
-  background: #ccc;
-  height: .5rem;
-  margin-left: .75rem;
-  margin-top: 1.75rem;
-  width: 2.5rem;
-}
-.menu-opener-inner::before, .menu-opener-inner::after {
-  background: #ccc;
-  content: '';
-  display: block;
-  height: .5rem;
-  width: 2.5rem;
-}
-.menu-opener-inner::before {
-  -webkit-transform: translateY(-0.75rem);
-  -ms-transform: translateY(-0.75rem);
-  transform: translateY(-0.75rem);
-}
-.menu-opener-inner::after {
-  -webkit-transform: translateY(0.25rem);
-  -ms-transform: translateY(0.25rem);
-  transform: translateY(0.25rem);
-}
-.menu-opener-inner.active {
-  background: transparent;
-}
-.menu-opener-inner.active::before {
-  -webkit-transform: translateY(0rem) rotate(-45deg);
-  -ms-transform: translateY(0rem) rotate(-45deg);
-  transform: translateY(0rem) rotate(-45deg);
-}
-.menu-opener-inner.active::after {
-  -webkit-transform: translateY(-0.5rem) translateX(0rem) rotate(45deg);
-  -ms-transform: translateY(-0.5rem) translateX(0rem) rotate(45deg);
-  transform: translateY(-0.5rem) translateX(0rem) rotate(45deg);
-}
-
-.menu {
-  background: #fff;
-  height: 64px;
-  position: absolute;
-  top: 15%;
-  right: 1%;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 0rem;
-  z-index: -1;
-}
-.menu.active {
-  width: -webkit-calc(95% - 2rem);
-  width: calc(95% - 2rem);
-}
-.menu .active .menu-link {
-  color: #000;
-}
-
-.menu-inner {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  height: 100%;
-  list-style-type: none;
-  margin: 0;
-  margin-right: 4rem;
-  padding: 0;
-}
-
-.menu-link {
-  color: #000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  font-size: 1rem;
-  font-weight: 100;
-  height: 100%;
-  text-align: center;
-  text-decoration: none;
-}
-.menu-link li {
-  margin: auto;
-}
 
 .main {
 	padding:0;
@@ -316,11 +203,6 @@ img {
    -moz-transition-property:    -moz-transform, opacity;
         transition-property:         transform, opacity;
 }
-.header{
-	height: 2em;
-	padding-top: 4em;
-
-	}
 	
 .section{
 	position: relative;
@@ -342,7 +224,7 @@ img {
 	} 
 
 .about-me{
-	padding-top:50em;
+	padding-top:40em;
 	position: relative;
 	}
 	
@@ -353,35 +235,13 @@ img {
 }
 
 .logo-pad{
-	padding-bottom: 5em;
-	padding-top: 2em;
-	padding-left: 5em;
+	padding-bottom: 4em;
+	padding-top: 2.5em;
+	padding-left: 0.4em;
 	
 }
 	
 @media screen and (max-width: 768px) {
-  .menu {
-    height: auto;
-	top: 17%;
-	right: 0%;
-  }
-  .menu-inner {
-    display: block;
-  }
-  
-  .menu-link {
-    padding: 10px 0;
-    font-size: 1em;
-  }
-  .menu.active {
-    width: -webkit-calc(125% - 0.5rem);
-    width: calc(125% - 0.5rem);
-  }
-  
-  .menu-opener {
-  top: 17%;
-  right: 0%;
-  }
   
   .logo-pad{
 	padding-bottom: 0em;
