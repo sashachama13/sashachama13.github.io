@@ -235,49 +235,14 @@ img {
 }
 
 .logo-pad{
-	padding-bottom: 4em;
+	padding-bottom: 6em;
 	padding-left: 0.4em;
-	padding-top: 0em;
+	padding-top: 2.5em;
 }
 
 input {
   display: none;
   text-align: right;
-}
-
-label {
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px 20px;
-  background: url("../images/navbar.svg") no-repeat;
-  color: #ccc;
-  font-family: arial;
-  -webkit-transition: background-color 0.4s, color 0.4s;
-}
-
-label:hover {
-  background: url("../images/navbarhover.svg") no-repeat;
-  color: #000;
-}
-
-.test {
-  -webkit-transition: height .4s ease;
-  height: 0;
-  overflow: hidden;
-  width: 200px;
-  background: trasparent;
-  margin-top: 10px;
-}
-
-input:checked + .test {
-  height: 100px;
-}
-
-.nav{
-	padding-left: 4em;
-	padding-top: .5em;
-	
-	height: 5em;
 }
 
 
